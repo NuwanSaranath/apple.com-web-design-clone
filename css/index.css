@@ -1,0 +1,36 @@
+@font-face{
+    font-family: "sf-pro-reguler";
+    src: url(/font/sf-pro-font/sf-pro-text_regular.woff2) format(woff2);
+}
+
+/* HEADER */
+
+#header {
+    height: 44px;
+    background-color: rgb(22,22,23,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header nav{
+    margin: 0 12px 0 12px;
+    padding: 0 8px 0 8px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 12px;
+    letter-spacing: 0.25px;
+}
+.nav-icon{
+    margin: 0 8px 0 8px;
+    padding: 0 8px 0 8px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+.nav-icon:last-child{
+    margin: 0 8px 0 0;
+    padding: 0 8px 0 20px;
+}
+.nav-icon:first-child{
+    margin: 0 10px 0 0;
+    padding: 0 0 0 8px;
+    font-size: 1.1rem;
+}
