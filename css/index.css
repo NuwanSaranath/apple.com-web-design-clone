@@ -34,3 +34,28 @@
     padding: 0 0 0 8px;
     font-size: 1.1rem;
 }
+
+/* BODY */
+
+.image-container{
+    position: relative;
+    margin:  0 0 14px 0;
+    height: 692px;
+    background-color: brown;
+}
+.image-container:first-child{
+    background-image: url("/img/macbook/machbook-1.jpg");
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.image-container:nth-child(2){
+    background-image: url("/img/imac/imac-1.jpg");
+    background-position: center; 
+}
+.image-container:nth-child(3){
+    background-image: url("/img/iphone15-pro/iphone15-1.jpg");
+    background-position: center; 
+}
