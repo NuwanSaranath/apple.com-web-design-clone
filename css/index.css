@@ -59,3 +59,147 @@
     background-image: url("/img/iphone15-pro/iphone15-1.jpg");
     background-position: center; 
 }
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+    position: relative;
+    top: 65px;
+}
+.mackBook-iMac-iPhone-15-pro-topic{
+    line-height: 40px;
+    font-size: 52px;
+    font-weight: bold;
+    letter-spacing: -0.28px; 
+}
+.mackBook-iMac-iPhone-15-pro-description{
+    font-size: 26px;
+    line-height: 60px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+}
+.buy{
+    font-size: 21px;
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    padding-left: 30px;
+}
+.left-arrow{
+    line-height: 35px;
+    font-size: .8rem;
+    margin:0 0 0 6.3px ;
+    color:  rgb(0, 102, 204);
+}
+.learnmore{
+    font-size: 21px;
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+}
+.image-container:nth-child(3){
+    color: rgb(245, 245, 247)
+}
+.buy, .learnmore,.left-arrow{
+    color: rgb(41,151,255);
+}
+#litle-images-containere{
+    background-color: transparent;
+    display: grid;
+    height: 1740;
+    column-gap: 12px;
+    row-gap: 12px; 
+    margin: 0 10px 10px 10px;
+    grid: 580px 580px 580px/1fr 1fr;
+}
+.litle-image-container{
+    height: 580px;
+    width: calc(50vw-5px);
+    background-color: rgb(44, 255, 44);
+    margin: 0;
+}
+.litle-image-topic{
+    line-height: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -0.28px;  
+}
+.litle-image-description{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+}
+.litle-image-container:first-child{
+    background-image: url(/img/iphone15/iphone-15-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.litle-image-container:nth-child(2){
+    background-image: url(/img/wonder-awaits/wonder-await-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.litle-image-container:nth-child(3){
+    background-image: url(/img/watch/watch-2.jpg);
+    background-position: center;
+    color: rgb(245, 245, 247);
+    background-size: cover;
+}
+.litle-image-container:nth-child(4){
+    background-image: url(/img/AirPods-pro/airpods-pro-2.jpg);
+    background-position: center;
+    color: rgb(245, 245, 247);
+    background-size: cover;
+}
+.litle-image-container:nth-child(5){
+    background-image: url(/img/card/card-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.litle-image-container:nth-child(6){
+    background-image: url(/img/trade-in/trade-in-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text-container .litle-image-description:nth-child(2){
+    line-height: 40px;
+}
+.litle-image-description-2{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+}
+.buy-2{
+    font-size: 17px;
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    padding-left: 30px;
+}
+.left-arrow-2{
+    line-height: 35px;
+    font-size: .7rem;
+    margin:0 0 0 6.3px ;
+    color:  rgb(0, 102, 204);
+}
+.learnmore-2{
+    font-size: 21pxpx;
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+}
+.buy-3{
+    font-size: 17px;
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+    padding-left: 30px;
+}
+.left-arrow-3{
+    line-height: 35px;
+    font-size: .7rem;
+    margin:10px 0 0 6.3px ;
+    color:  rgb(0, 102, 204);
+}
+.learnmore-3{
+    font-size: 17pxpx;
+    color:  rgb(0, 102, 204);
+    text-decoration: none;
+}
