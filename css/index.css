@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
 }
+
 #header nav{
     margin: 0 12px 0 12px;
     padding: 0 8px 0 8px;
@@ -19,16 +20,19 @@
     font-size: 12px;
     letter-spacing: 0.25px;
 }
+
 .nav-icon{
     margin: 0 8px 0 8px;
     padding: 0 8px 0 8px;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.8);
 }
+
 .nav-icon:last-child{
     margin: 0 8px 0 0;
     padding: 0 8px 0 20px;
 }
+
 .nav-icon:first-child{
     margin: 0 10px 0 0;
     padding: 0 0 0 8px;
@@ -43,6 +47,7 @@
     height: 692px;
     background-color: brown;
 }
+
 .image-container:first-child{
     background-image: url("/img/macbook/machbook-1.jpg");
     background-position: center; 
@@ -51,14 +56,17 @@
 
     align-items: center;
 }
+
 .image-container:nth-child(2){
     background-image: url("/img/imac/imac-1.jpg");
     background-position: center; 
 }
+
 .image-container:nth-child(3){
     background-image: url("/img/iphone15-pro/iphone15-1.jpg");
     background-position: center; 
 }
+
 .text-container{
     display: flex;
     flex-direction: column;
@@ -67,41 +75,49 @@
     position: relative;
     top: 65px;
 }
+
 .mackBook-iMac-iPhone-15-pro-topic{
     line-height: 40px;
     font-size: 52px;
     font-weight: bold;
     letter-spacing: -0.28px; 
 }
+
 .mackBook-iMac-iPhone-15-pro-description{
     font-size: 26px;
     line-height: 60px;
     font-weight: 400;
     letter-spacing: -0.28px;
 }
+
 .buy{
     font-size: 21px;
     color:  rgb(0, 102, 204);
     text-decoration: none;
     padding-left: 30px;
 }
+
 .left-arrow{
     line-height: 35px;
     font-size: .8rem;
     margin:0 0 0 6.3px ;
     color:  rgb(0, 102, 204);
 }
+
 .learnmore{
     font-size: 21px;
     color:  rgb(0, 102, 204);
     text-decoration: none;
 }
+
 .image-container:nth-child(3){
     color: rgb(245, 245, 247)
 }
+
 .buy, .learnmore,.left-arrow{
     color: rgb(41,151,255);
 }
+
 #litle-images-containere{
     background-color: transparent;
     display: grid;
@@ -111,64 +127,76 @@
     margin: 0 10px 10px 10px;
     grid: 580px 580px 580px/1fr 1fr;
 }
+
 .litle-image-container{
     height: 580px;
     width: calc(50vw-5px);
     background-color: rgb(44, 255, 44);
     margin: 0;
 }
+
 .litle-image-topic{
     line-height: 40px;
     font-size: 40px;
     font-weight: bold;
     letter-spacing: -0.28px;  
 }
+
 .litle-image-description{
     font-size: 20px;
     line-height: 40px;
     font-weight: 400;
     letter-spacing: -0.28px;
 }
+
 .litle-image-container:first-child{
     background-image: url(/img/iphone15/iphone-15-2.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .litle-image-container:nth-child(2){
     background-image: url(/img/wonder-awaits/wonder-await-2.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .litle-image-container:nth-child(3){
     background-image: url(/img/watch/watch-2.jpg);
     background-position: center;
     color: rgb(245, 245, 247);
     background-size: cover;
 }
+
 .litle-image-container:nth-child(4){
     background-image: url(/img/AirPods-pro/airpods-pro-2.jpg);
     background-position: center;
     color: rgb(245, 245, 247);
     background-size: cover;
 }
+
 .litle-image-container:nth-child(5){
     background-image: url(/img/card/card-2.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .litle-image-container:nth-child(6){
     background-image: url(/img/trade-in/trade-in-2.jpg);
     background-position: center;
     background-size: cover;
 }
+
 .text-container .litle-image-description:nth-child(2){
     line-height: 40px;
 }
+
 .litle-image-description-2{
     font-size: 20px;
     font-weight: 400;
     letter-spacing: -0.28px;
 }
+
 .buy-2{
     font-size: 17px;
     color:  rgb(0, 102, 204);
@@ -181,28 +209,33 @@
     margin:0 0 0 6.3px ;
     color:  rgb(0, 102, 204);
 }
+
 .learnmore-2{
     font-size: 21pxpx;
     color:  rgb(0, 102, 204);
     text-decoration: none;
 }
+
 .buy-3{
     font-size: 17px;
     color:  rgb(0, 102, 204);
     text-decoration: none;
     padding-left: 30px;
 }
+
 .left-arrow-3{
     line-height: 35px;
     font-size: .7rem;
     margin:10px 0 0 6.3px ;
     color:  rgb(0, 102, 204);
 }
+
 .learnmore-3{
     font-size: 17pxpx;
     color:  rgb(0, 102, 204);
     text-decoration: none;
 }
+
 #carousel-inner-container {
     margin-top: 8px;
     width: 100%;
@@ -230,9 +263,6 @@
     border-left: 100px;
     border-left-color: aqua;
     display: flex;
-
-
-
 }
 
 .display-flex:first-child,
@@ -249,7 +279,134 @@
     height: 705px;
 }
 
+#carousel-inner img {
+    width: 1250px;
+    height: 705px;
+    margin: 0 5px 0 5px;
+    object-fit: fill;
+    overflow: visible;
 
+    &:hover {
+        cursor: pointer;
+    }
+}
+#image-windows {
+    position: absolute;
+    width: 100%;
+    z-index: 800;
+    height: 705px;
+    background-color: transparent;
+    /* left: 50%; */
+    /* transform: translateX(-52.5%); */
+    border-left: 100px;
+    border-left-color: aqua;
+    display: flex;
+}
+
+.display-flex:first-child,
+.display-flex:last-child {
+    width: 16%;
+    height: 705px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.384);
+    backdrop-filter: blur(8px);
+}
+
+.display-flex:nth-child(2) {
+    width: 70%;
+    height: 705px;
+}
+
+@keyframes img-slide {
+    form {
+        left: -975px;
+
+    }
+
+    7% {
+        left: -975px;
+    }
+
+    9% {
+        left: calc(-975px - 1263px);
+    }
+
+    16% {
+        left: calc(-975px - 1263px);
+    }
+
+    18% {
+        left: calc(-975px - (1265px * 2));
+    }
+
+    25% {
+        left: calc(-975px - (1265px * 2));
+    }
+
+    27% {
+        left: calc(-975px - (1264px * 3));
+    }
+
+    34% {
+        left: calc(-975px - (1264px * 3));
+    }
+
+    36% {
+        left: calc(-975px - (1264px * 4));
+    }
+
+    43% {
+        left: calc(-975px - (1265px * 4));
+    }
+
+    45% {
+        left: calc(-975px - (1265px * 5));
+    }
+
+    52% {
+        left: calc(-975px - (1264px * 5));
+    }
+
+    54% {
+        left: calc(-975px - (1264.5px * 6));
+    }
+
+    61% {
+        left: calc(-975px - (1264.5px * 6));
+    }
+
+    63% {
+        left: calc(-975px - (1264px * 7));
+    }
+
+    72% {
+        left: calc(-975px - (1264px * 7));
+    }
+
+    74% {
+        left: calc(-975px - (1264.5px * 8));
+    }
+
+    82% {
+        left: calc(-975px - (1264.5px * 8));
+    }
+
+    84% {
+        left: calc(-975px - (1264.5px * 9));
+    }
+
+    94% {
+        left: calc(-975px - (1264.5px * 9));
+    }
+
+    96% {
+        left: calc(-975px - (1264.5px * 10));
+    }
+
+    to {
+        left: calc(-975px - (1264.5px * 10));
+    }
+}
 
 #carousel-inner img {
     width: 1250px;
@@ -262,3 +419,4 @@
         cursor: pointer;
     }
 }
+
